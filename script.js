@@ -32,7 +32,7 @@ chantInput.addEventListener("keyup", (event) => {
     if (count > 0) {
       count--;
       counterDisplay.textContent = count;
-      mantraAudio.play();
+     
       updateProgressBar();
     }
     chantInput.value = "";
