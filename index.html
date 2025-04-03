@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Radha Krishna Chanting</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🌸HARE KRISHNA🌸</h1>
+
+      <!-- Radha Krishna Image -->
+      <img src="download.jpg" alt="Radha Krishna" class="krishna-image" />
+      <br />
+
+      <!-- Select Chanting Name -->
+      <label>Select Name:</label>
+      <select id="nameSelect">
+        <option value="hare krishna">Hare Krishna</option>
+        <option value="hare rama">Hare Rama</option>
+        <option value="radhe radhe">Radhe Radhe</option>
+      </select>
+
+      <!-- Select Counter -->
+      <label>Select Count:</label>
+      <select id="counterSelect">
+        <option value="11">11</option>
+        <option value="108">108</option>
+        <option value="1008">1008</option>
+        <option value="5000">5000</option>
+      </select>
+
+      <!-- Display Count -->
+      <h2 id="counterDisplay">11</h2>
+
+      <!-- Chanting Input -->
+      <input type="text" id="chantInput" placeholder="Type & Press Enter" />
+
+      <!-- Progress Bar -->
+      <div class="progress-container">
+        <div id="progress-bar"></div>
+      </div>
+
+      <!-- Completion Message -->
+      <p id="congratsMessage">🌟 Congratulations! You completed chanting! 🌟</p>
+
+      <!-- Dark Mode Toggle -->
+      <button id="darkModeToggle">🌙 Dark Mode</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
